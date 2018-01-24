@@ -21,8 +21,6 @@ from socorro.external.fs.crashstorage import FSDatedPermanentStorage
 from socorro.lib.util import DotDict
 from socorro.lib import raven_client
 
-#from socorro.processor.processor_2015 import Processor2015
-
 
 class ProcessorApp(FetchTransformSaveWithSeparateNewCrashSourceApp):
     """the Socorro processor converts raw_crashes into processed_crashes"""
